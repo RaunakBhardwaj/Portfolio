@@ -1,7 +1,36 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa"; // Importing icons
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 function Contact() {
+  // email templet setup
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    emailjs
+      .sendForm(
+        "service_6wbujre", // Replace with your EmailJS service ID
+        "template_26ave56", // Replace with your EmailJS template ID
+        form.current,
+        "E74vq7utIKcb9cvO-" // Replace with your EmailJS public key
+      )
+      .then(
+        (result) => {
+          console.log("Message sent successfully!", result.text);
+          alert("Your message has been sent!");
+          form.current.reset(); // Reset the form after sending
+        },
+        (error) => {
+          console.log("Failed to send the message.", error.text);
+          alert("Oops! Something went wrong.");
+        }
+      );
+  };
+  // ------end-------
+
   return (
     <div className="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 py-16 px-6 md:px-12 lg:px-20">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -58,7 +87,11 @@ function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-indigo-800 dark:text-indigo-300 text-center lg:text-left">
             CONTACT FORM
           </h2>
-          <form className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg space-y-6">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg space-y-6"
+          >
             <div>
               <label
                 htmlFor="name"

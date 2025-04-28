@@ -14,23 +14,20 @@ function Projects() {
           {/* Project Card 1 */}
           <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden">
             <div className="relative w-full h-40">
-              {/* <img
-                src={assets.project1}
-                alt="Project 1"
-                className="object-cover w-full h-full"
-              /> */}
-              <Image alt="" src={assets.project1} />
+              <Image alt="" src={assets.project3} />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2 text-indigo-800 dark:text-indigo-300">
-                Project Name 1
+                Portfolio
               </h3>
               <p className="text-base mb-4 text-gray-700 dark:text-gray-300">
-                Brief description of the project. It's a great project
-                showcasing my skills in React, Node.js, and other technologies.
+                A modern and responsive portfolio web app built with Next.js and
+                Tailwind CSS, showcasing projects and skills. The web app
+                features a Contact Form integrated with EmailJS to enable
+                seamless communication with users or potential clients.
               </p>
               <a
-                href="https://raunakbhardwaj.github.io/Registration-portal/"
+                href="https://github.com/yourusername/project3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 rounded-full bg-gradient-to-br from-blue-950 via-purple-500 to-indigo-500 text-white font-medium transition duration-300 hover:opacity-80"
@@ -52,11 +49,14 @@ function Projects() {
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2 text-indigo-800 dark:text-indigo-300">
-                Project Name 2
+                Noughts and crosses Game
               </h3>
               <p className="text-base mb-4 text-gray-700 dark:text-gray-300">
-                Brief description of the project. A simple yet effective app
-                built with Next.js and Tailwind CSS.
+                A simple and interactive Tic-Tac-Toe game built using JavaScript
+                and DOM manipulation. Players alternate turns to place their
+                marks (X or O) on a 3x3 grid, with the objective to get three of
+                their marks in a row, either horizontally, vertically, or
+                diagonally.
               </p>
               <a
                 href="https://raunakbhardwaj.github.io/Noughts-crosses-Game-with-js/"
@@ -72,22 +72,25 @@ function Projects() {
           {/* Project Card 3 */}
           <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden">
             <div className="relative w-full h-40">
-              <img
-                src="https://via.placeholder.com/400x300"
-                alt="Project 3"
+              {/* <img
+                src={assets.project1}
+                alt="Project 1"
                 className="object-cover w-full h-full"
-              />
+              /> */}
+              <Image alt="" src={assets.project1} />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2 text-indigo-800 dark:text-indigo-300">
-                Project Name 3
+                Registration Portal
               </h3>
               <p className="text-base mb-4 text-gray-700 dark:text-gray-300">
-                This project demonstrates my experience with D3.js for data
-                visualization and interactive charts.
+                A static registration portal built with HTML, CSS, and
+                JavaScript. New users can register, log in, view, and update
+                their details via a dashboard.Designed to demonstrate frontend
+                form handling, validation, and responsive UI.
               </p>
               <a
-                href="https://github.com/yourusername/project3"
+                href="https://raunakbhardwaj.github.io/Registration-portal/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 rounded-full bg-gradient-to-br from-blue-950 via-purple-500 to-indigo-500 text-white font-medium transition duration-300 hover:opacity-80"

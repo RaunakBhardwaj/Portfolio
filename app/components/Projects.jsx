@@ -40,11 +40,6 @@ function Projects() {
           {/* Project Card 2 */}
           <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden">
             <div className="relative w-full h-40">
-              {/* <img
-                src="#"
-                alt="Project 2"
-                className="object-cover w-full h-full"
-              /> */}
               <Image alt="" src={assets.project2} />
             </div>
             <div className="p-6">
@@ -72,11 +67,6 @@ function Projects() {
           {/* Project Card 3 */}
           <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden">
             <div className="relative w-full h-40">
-              {/* <img
-                src={assets.project1}
-                alt="Project 1"
-                className="object-cover w-full h-full"
-              /> */}
               <Image alt="" src={assets.project1} />
             </div>
             <div className="p-6">

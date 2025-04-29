@@ -58,21 +58,21 @@ function Contact() {
             </h3>
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/raunak-singh-bba866167/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="text-3xl text-indigo-800 dark:text-indigo-300 hover:text-indigo-500" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/RaunakBhardwaj"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub className="text-3xl text-indigo-800 dark:text-indigo-300 hover:text-indigo-500" />
               </a>
               <a
-                href="https://wa.me/yourphonenumber"
+                href="https://wa.me/7741787128"
                 target="_blank"
                 rel="noopener noreferrer"
               >

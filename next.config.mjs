@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // This is all you need now for static export
-  distDir: "out",
+  output: "export", // Enable static export
+  images: {
+    unoptimized: true, // Required for next/image in static export
+  },
 };
 
 export default nextConfig;

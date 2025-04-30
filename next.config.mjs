@@ -2,8 +2,10 @@
 const nextConfig = {
   output: "export",
   images: {
-    unoptimized: true, // ✅ disables Image Optimization for static export
+    unoptimized: true,
   },
+  basePath: "/Portfolio",
+  assetPrefix: "/Portfolio/",
 };
 
 export default nextConfig;

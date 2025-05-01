@@ -38,6 +38,7 @@ import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
 import project3 from "./project3.png";
+import project4 from "./project4.png";
 
 export const assets = {
   user_image,
@@ -80,6 +81,7 @@ export const assets = {
   project1,
   project2,
   project3,
+  project4,
 };
 
 export const workData = [

@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🧑‍💻 Developer Portfolio – Next.js + Tailwind CSS
+This is a modern and responsive developer portfolio built using Next.js, JavaScript, and Tailwind CSS. It showcases personal and professional details including projects, education, experience, and a contact form — all designed to create a clean, minimal, and easy-to-navigate web presence for potential employers or collaborators.
 
-## Getting Started
+🔍 Features
+Home – Engaging landing section with a short introduction and a Download CV button
 
-First, run the development server:
+About Me – Overview of background, skills, and interests
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Education – Timeline of academic milestones
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Experience – Summary of professional roles and responsibilities
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Projects – Grid layout showcasing work, with GitHub/live preview links
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contact Form – Integrated with EmailJS to enable direct communication
 
-## Learn More
+🛠️ Tech Stack
+Frontend Framework: Next.js
 
-To learn more about Next.js, take a look at the following resources:
+Styling: Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Form Integration: EmailJS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Language: JavaScript
 
-## Deploy on Vercel
+Hosting: Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🚀 Live Demo
+🧑‍💻 Developer Portfolio – Next.js + Tailwind CSS
+This is a modern and responsive developer portfolio built using Next.js, JavaScript, and Tailwind CSS. It showcases personal and professional details including projects, education, experience, and a contact form — all designed to create a clean, minimal, and easy-to-navigate web presence for potential employers or collaborators.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔍 Features
+Home – Engaging landing section with a short introduction and a Download CV button
+
+About Me – Overview of background, skills, and interests
+
+Education – Timeline of academic milestones
+
+Experience – Summary of professional roles and responsibilities
+
+Projects – Grid layout showcasing work, with GitHub/live preview links
+
+Contact Form – Integrated with EmailJS to enable direct communication
+
+🛠️ Tech Stack
+Frontend Framework: Next.js
+
+Styling: Tailwind CSS
+
+Form Integration: EmailJS
+
+Language: JavaScript
+
+Hosting: Vercel
+
+🚀 Live Demo
+🧑‍💻 Developer Portfolio – Next.js + Tailwind CSS
+This is a modern and responsive developer portfolio built using Next.js, JavaScript, and Tailwind CSS. It showcases personal and professional details including projects, education, experience, and a contact form — all designed to create a clean, minimal, and easy-to-navigate web presence for potential employers or collaborators.
+
+🔍 Features
+Home – Engaging landing section with a short introduction and a Download CV button
+
+About Me – Overview of background, skills, and interests
+
+Education – Timeline of academic milestones
+
+Experience – Summary of professional roles and responsibilities
+
+Projects – Grid layout showcasing work, with GitHub/live preview links
+
+Contact Form – Integrated with EmailJS to enable direct communication
+
+🛠️ Tech Stack
+Frontend Framework: Next.js
+
+Styling: Tailwind CSS
+
+Form Integration: EmailJS
+
+Language: JavaScript
+
+Hosting: Vercel
+
+🚀 Live Demo
+🔗 View Live Portfolio

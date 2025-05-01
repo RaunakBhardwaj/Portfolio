@@ -9,7 +9,7 @@ const projectData = [
     description:
       "A modern and responsive portfolio web app built with Next.js and Tailwind CSS, showcasing projects and skills. The web app features a Contact Form integrated with EmailJS to enable seamless communication with users or potential clients.",
     image: assets.project3,
-    link: "https://github.com/yourusername/project3",
+    link: "https://portfolio-murex-pi-18.vercel.app/",
   },
   {
     id: 2,
